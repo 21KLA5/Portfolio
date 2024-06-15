@@ -1,11 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import OnePage from './components/OnePage';
+import SideBar from './components/SideBar';
+
 
 function App() {
   return (
     <>
-      <OnePage />
+      <div className="App">
+        <SideBar />
+
+      </div>
     </>
   );
 }
