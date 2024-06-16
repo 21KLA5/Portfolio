@@ -1,6 +1,8 @@
 .App{
     width: 100vw;
     height: 100vh;
+    display: flex; 
+    flex-wrap: wrap;
 }
 
 *{
@@ -53,3 +55,8 @@ body{
 .row #title{
     flex: 70%;
 }
+
+.background{
+    flex: 1;
+    
+}   
