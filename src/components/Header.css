@@ -1,0 +1,20 @@
+.description{
+    padding-top: 250px;
+    padding-left: 30px;
+}
+
+
+.description h1{    
+    font-size: 72px;
+}
+
+.description .container{
+    font-size: 48px;
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+
+.description .type{
+
+}
