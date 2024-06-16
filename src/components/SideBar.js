@@ -1,10 +1,12 @@
 import React from "react"
 import '../App.css'
 import { SideBarData } from "./SideBarData";
+import ProfilePic from "./ProfilePic";
 
 function SideBar(){
   return (
     <div className="sidebar">
+      <ProfilePic />
       <ul className="SidebarList">
         {SideBarData.map((val,key)=> {
           return (
