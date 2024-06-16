@@ -24,6 +24,8 @@
 
 .socials button{
     border: 3px;
+    height: 25px;
+    border-radius: 40%;
 }
 
 .socials button:hover{
