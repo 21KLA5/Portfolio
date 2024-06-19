@@ -8,12 +8,16 @@ export const SideBarData = [
     {
         title: "Home",
         icon: <HomeIcon />,
-        link: "/home"
+        link: {
+            top: 100,
+            left: 100,
+            behavior: "smooth",
+          }
     },
     {
         title: "About Me",
         icon: <InfoIcon />,
-        link: "/aboutMe"
+        link: (0, 1900)
     },
     {
         title: "Projects",
