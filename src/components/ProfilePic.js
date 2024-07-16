@@ -15,9 +15,9 @@ function ProfilePic(){
                     Kavin Arasu
                 </h1>
                 <div className="socials">
-                    <button id="linkedin"> <LinkedInIcon /> </button>
-                    <button id="github"> <GitHubIcon /> </button>
-                    <button id="instagram"> <InstagramIcon /> </button>
+                    <a href="https://www.linkedin.com/in/kavin-arasu/" target="_blank"><button id="linkedin"> <LinkedInIcon /> </button></a>
+                    <a href="https://github.com/21KLA5" target="_blank"><button id="github"> <GitHubIcon /> </button></a>
+                    <a href="https://www.instagram.com/kavinarasu_/" target="_blank"><button id="instagram"> <InstagramIcon /> </button></a>
                 </div>
             </div>
             

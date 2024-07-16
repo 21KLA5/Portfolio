@@ -1,6 +1,7 @@
 .description{
     padding-top: 250px;
     padding-left: 30px;
+    display: block;
 }
 
 
@@ -12,4 +13,12 @@
     font-size: 48px;
     display: flex; 
     flex-wrap: wrap;
+}
+
+.coder{
+    position: absolute;
+    left: 1000px;
+    top: 190px;
+    border-radius: 50%;
+    
 }
