@@ -1,0 +1,23 @@
+.description {
+    padding-top: 100px;
+    padding-left: 30px;
+    display: flex;
+    align-items: center; /* Aligns items vertically center */
+    gap: 20px; /* Adds space between text and image */
+}
+
+.description h1 {    
+    font-size: 72px;
+}
+
+.description .container {
+    font-size: 48px;
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+.coder {
+    width: 150px; /* Adjust size as needed */
+    height: auto;
+    border-radius: 50%;
+}

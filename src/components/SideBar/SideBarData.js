@@ -24,9 +24,4 @@ export const SideBarData = [
         icon: <DescriptionIcon />,
         link: "/projects"
     },
-    {
-        title: "Contact",
-        icon: <EmailIcon />,
-        link: "/contact"
-    },
 ]

@@ -1,6 +1,6 @@
 import React from "react";
 import "./ProfilePic.css"
-import pfp from "../assets/pfp.png"
+import pfp from "../../assets/pfp.png"
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import InstagramIcon from '@mui/icons-material/Instagram';
