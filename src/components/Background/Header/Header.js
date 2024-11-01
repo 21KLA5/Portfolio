@@ -3,6 +3,7 @@ import "./Header.css";
 import Typewriter from 'typewriter-effect';
 import coder from "../../../assets/download.jpg";
 import resume from '../../../assets/Resume.pdf';
+import { Link } from "react-router-dom";
 
 function Header() {
     return (
@@ -31,7 +32,7 @@ function Header() {
                     <a href={resume} target="_blank" rel="noopener noreferrer">
                         <button className="btn">Resume</button>
                     </a>
-                    <a href="#projects" className="btn">Projects</a>
+                    <Link to="/projects" className="btn">Projects</Link>
                 </div>
 
             </div>
