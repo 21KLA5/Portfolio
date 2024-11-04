@@ -1,34 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .background-container {
     display: flex;
     height: 100vh;
     overflow: hidden;
 }
 
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    .background-container {
+        flex-direction: column; /* Stack content vertically on mobile */
+        height: auto; /* Allow the height to adjust based on content */
+    }
+
+    .left-content, .right-background {
+        margin: 0; 
+        width: 100%; 
+        height: auto; /* Allow height to adjust based on content */
+    }
+
+    .left-content {
+        order: 1; 
+        width: 100%;
+        height: auto; 
+        padding: 10px;
+        justify-content: center;
+        align-items: center; 
+        text-align: center; 
+    
+    }
+
+    .right-background {
+        order: 2; 
+    }
+}
 
 .left-content {
-    width: 50vw;
-    flex: 1;
+    width: 100%; /* Use full width */
     padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: rgb(231, 223, 223);
-    overflow-y: auto;
+    overflow-y: auto; /* Allow scrolling if content overflows */
 }
 
-
 .right-background {
-    flex: 1;
     background-image: url('../../assets/pfp.jpg');
     background-size: cover;
     background-position: center;
-    right: 0%;
-    width: 50%;
-    height: 100vh;
-    flex-shrink: 0;
+    width: 100%; /* Use full width */
+    height: 100vh; /* Default height for larger screens */
 }
-
 
 .buttons {
     display: flex;
@@ -65,9 +92,9 @@
 .left-content::-webkit-scrollbar-thumb {
     background-color: black; 
     border-radius: 10px;
-    border: 3px solid #e0e0e0; /* adds padding around thumb */
+    border: 3px solid #e0e0e0; 
 }
 
 .left-content::-webkit-scrollbar-thumb:hover {
-    background-color: #555; /* Color when hovered */
+    background-color: #555; 
 }

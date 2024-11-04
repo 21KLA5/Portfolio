@@ -23,7 +23,7 @@ function Header() {
                             strings: ["Cybersecurity", "Software"]
                         }} 
                     />
-                    engineer
+                    <p>engineer</p>
                 
                 
                 </div>
