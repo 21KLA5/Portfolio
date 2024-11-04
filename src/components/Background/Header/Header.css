@@ -28,3 +28,19 @@
     border-radius: 50%;
     
 }
+
+.social-media-buttons {
+    margin-top: 10px;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.social-btn {
+    color: #000;
+    transition: color 0.3s ease;
+}
+
+.social-btn:hover {
+    color: #555;
+}
