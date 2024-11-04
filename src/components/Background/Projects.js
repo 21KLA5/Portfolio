@@ -66,7 +66,7 @@ function Projects() {
                 </Slider>
 
                 <div className="back-home">
-                    <Link to="/">
+                    <Link to="/portfolio">
                         <button className="btn">Return to Homepage</button>
                     </Link>
                 </div>

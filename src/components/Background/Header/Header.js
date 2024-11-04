@@ -33,7 +33,7 @@ function Header() {
                     <a href={resume} target="_blank" rel="noopener noreferrer">
                         <button className="btn">Resume</button>
                     </a>
-                    <Link to="/projects" className="btn">Projects</Link>
+                    <Link to="/portfolio/projects" className="btn">Projects</Link>
                 </div>
 
                 <div className="social-media-buttons">
