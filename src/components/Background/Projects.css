@@ -11,6 +11,22 @@ body, html {
     font-family: Arial, sans-serif;
 }
 
+@media (max-width: 768px) {
+    h1{
+        position: relative;
+        top: 60px; 
+    }
+    
+    .back-home{
+        padding: 0;
+        margin: 0;
+    }
+
+    .btn{
+        border-radius: 30px;
+    }
+}
+
 
 /* Wrapper for the entire content including slider and button */
 .project-slider {
@@ -20,7 +36,6 @@ body, html {
     justify-content: center;
     height: 100vh;
     background-color: rgb(231, 223, 223);
-    padding: 20px;
     
 }
 
@@ -74,8 +89,7 @@ body, html {
 
 /* Center the button right below the slider */
 .back-home {
-    margin-top: 20px;
-    padding-top: 20px;
+    padding-top: 10px;
     gap: 0px;
 }
 
@@ -84,7 +98,6 @@ body, html {
     background-color: #333;
     color: #fff;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
 }
 
