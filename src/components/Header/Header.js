@@ -1,8 +1,8 @@
 import React from "react";
 import "./Header.css";
 import Typewriter from 'typewriter-effect';
-import coder from "../../../assets/download.jpg";
-import resume from '../../../assets/Resume.pdf';
+import coder from "../../assets/download.jpg";
+import resume from '../../assets/Resume.pdf';
 import { Link } from "react-router-dom";
 import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
 

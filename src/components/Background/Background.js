@@ -1,6 +1,6 @@
 import React from "react";
 import "./Background.css";
-import Header from "./Header/Header";
+import Header from "../Header/Header";
 
 
 function Background() {

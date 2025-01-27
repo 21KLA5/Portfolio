@@ -1,6 +1,6 @@
 import './App.css';
 import Background from '../components/Background/Background';
-import Projects from '../components/Background/Projects';
+import Projects from '../components/projects/Projects';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 
