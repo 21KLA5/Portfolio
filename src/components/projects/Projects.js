@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './Projects.css';
 import onq from '../../assets/onq.jpg';
 import codingMan from '../../assets/download.jpg';
@@ -35,6 +36,8 @@ const projectsData = [
 ];
 
 function Projects() {
+    const navigate = useNavigate();
+
     return (
         <div className="projects-container">
             <h1 className="projects-heading">My Projects</h1>
@@ -53,6 +56,9 @@ function Projects() {
                     </div>
                 ))}
             </div>
+            <button className="back-button" onClick={() => navigate('/portfolio')}>
+                Back to Portfolio
+            </button>
         </div>
     );
 }
